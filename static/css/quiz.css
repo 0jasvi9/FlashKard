@@ -1,0 +1,110 @@
+#app{
+    position: relative;
+    min-height: 100vh;
+    /*background-color: aqua;*/
+    text-align: center !important;
+    justify-content: center !important;
+    margin-right: 0;
+}
+.card-custom{
+    margin-top: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1) !important;
+    margin: auto;
+    justify-content: center !important;
+    width: 500px !important;
+}
+
+.table-view{
+    margin-top: 20px !important;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1) !important;*/
+    margin: auto;
+    justify-content: center !important;
+    width: 500px !important;
+    border: none !important;
+}
+
+.card-button-1{
+    width: 120px;
+    background-color: #ff7300 !important;
+}
+
+.card-button-2{
+    float: right !important;
+    width: 80px;
+    background-color: #5596e6 !important;
+}
+
+.btn-size-1 {
+    width: 120px;
+}
+
+.visibility-label{
+    float: none !important;
+    display: inline !important;
+}
+.custom-check-form{
+    margin-bottom: 20px !important;
+}
+
+
+.decks-view{
+    position: relative;
+    min-height: 100vh;
+    
+    text-align: center !important;
+    justify-content: center !important;
+    margin-right: 0;
+}
+
+.adddeck-view{
+    position: relative;
+    min-height: 100vh;
+    background-color: aqua;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-right: 0;
+}
+
+.adddeck-block{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    width: 265px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
+}
+
+
+.app-contents{
+    position: absolute;
+}
+
+.name-tag{
+   float: left !important;
+   margin-left: 13px;
+    
+}
+
+.question-form-label{
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.custom-check{
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.user-icon{
+    margin-top: 3px;
+    float: left !important;
+    margin-left: 13px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
